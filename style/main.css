@@ -1,5 +1,5 @@
 body{
-    background-color: darkblue;
+    background-color: black;
     margin: 50px 50px 50px 50px;
     color: white;
     font-family: monospace;
@@ -37,8 +37,9 @@ h1{
     font-family: Aclonica, sans-serif;
     text-align: center;
     margin-top: 150px;
-    padding-top:30px;
-    background-color: rgba(0, 0, 0, 0.912);
+    padding-top:100px;
+    background-color: rgba(0, 0, 0, 0.701);
+    height: 200px;
   
   
 }
@@ -54,7 +55,7 @@ section{
     background-color: cadetblue;
     float:right;  
     border: 10px solid white; 
-    margin: 70px 30px 70px 30px;
+    margin: 60px 30px 70px 30px;
     font-size: 30px;
     text-align:right;
     padding-right: 25px;
@@ -63,7 +64,7 @@ section{
 form{
     height: 350px;
     width: 50%;
-    background-color: rgba(191, 49, 167, 0.72); 
+    background-color: rgba(191, 49, 167, 0.831); 
     border: 10px solid white; 
     margin: 30px 30px 30px 30px;
     font-size: 20px;
@@ -113,3 +114,12 @@ h3{
     padding: 1px;
     margin: 20px;
 }
+#contenedor-titulo{
+    background-image: url(https://mcdn.wallpapersafari.com/medium/18/34/mrhi5M.jpg);
+  }
+
+  @media (max-height: 800px){ 
+    p {
+    font-size: 25px;
+      }
+  }
