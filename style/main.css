@@ -1,0 +1,17 @@
+#nav-bar{
+    position: fixed;
+    font-size: 20px;
+    font-family:Gloria Hallelujah;
+    top: 30px;
+}
+.nav-link{
+    margin-left: 40px;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    top: 40px;
+}
+h2{
+    font-family:Gloria Hallelujah;
+}
