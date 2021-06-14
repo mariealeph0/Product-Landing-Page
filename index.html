@@ -9,36 +9,64 @@ GitHub Page: https://mariealeph0.github.io/Product-Landing-Page/
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet" type="text/css"> 
-
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Gloria+Hallelujah&display=swap" rel="stylesheet" type="text/css">
     <title>Landing Page</title>
+
 </head>
 <body>
-    <header id="header">
-        <h1>Biblioteca Online de Comics</h1>
-        los puedes leer, los puedes ver, los puedes disfrutar como quieras.
-        <nav id="nav-bar">
+    <header id="header" > 
+            <nav id="nav-bar">
             <a class="nav-link" href="#section1">Leer Comics</a>
             <a class="nav-link" href="#section2">Escuchar comics</a>
             <a class="nav-link" href="#section3">Narración Ilustrada</a> 
         </nav>
+        <h1>Biblioteca Online de Comics</h1>
+        los puedes leer, los puedes ver, los puedes disfrutar como quieras.
     </header>
-    <section id="section1"><h2>Leer Comics</h2> Puedes disfrutar del comic de la forma tradicional, siendo tu propio narrador</section>
-    <section id="section2"><h2>Escuchar Comics</h2>Si eres de los que prefiere crear sus propios universos y diseñar sus propios personajes, la narración de historias de comic por podcast es para ti</section>
-    <section id="section3"><h2>Narración Ilustrada</h2>Disfrutar de una historia a través de dibujos nunca fue tan entretenido</section>
-
-    <!--para insertar video: ir a youtube, dar compartir video, dar insertar <>, copiar y pegar iframe  -->
-        <section id="contenedor-video">
-            <iframe id="video" width="560" height="315" 
-            src="https://www.youtube.com/embed/imNZ7cVO_wg" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>    
-        </section>
     
     
-    <form id="form" action="https://www.reecodecamp.com/email-submit">
-        <input id="email" type="email" placeholder="correo.personal@kmail.ohm">
-        <input id="submit" type="submit" value="">
+    <div>
+    <section id="section1">
+        <aside class="contenedorImg"><img id="img1" src="./img/img1.jpg" alt="dibujo comic"></aside>     
+        <p><h2>Leer Comics</h2> 
+        Puedes disfrutar del comic de la forma tradicional, siendo tu propio narrador</p></section>
+    <section id="section2">
+        <aside class="contenedorImg"><img id="img2" src="./img/img2.png" alt="icon"></aside>
+        <p><h2>Escuchar Comics</h2>
+        Si eres de los que prefiere crear sus propios universos y diseñar sus propios personajes, la narración de historias de comic por podcast es para ti</p> </section>
+    <section id="section3">
+        <aside><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/imNZ7cVO_wg" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe></aside>
+        <p><h2>Narración Ilustrada</h2>
+        Disfrutar de una historia a través de dibujos nunca fue tan entretenido</p>
+    </section>
+</div>
+<!--para insertar video: ir a youtube, dar compartir video, dar insertar <>, copiar y pegar iframe  -->
+<aside id="contenedor-video">
+       
+</aside> 
+    
+        
+    
+      
+        <form id="form" action="https://www.reecodecamp.com/email-submit">
+    <h3>Registrate y conoce todo sobre el universo del COMIC</h3>
+    <br>
+         nombre de usuario 
+        <input type="text" class="item-formulario"><br>
+        fecha de nacimiento 
+        <input type="date" class="item-formulario" id="fechanacimiento"><br>
+        correo electronico 
+        <input id="email" class="item-formulario" type="email" placeholder="correo.personal@kmail.ohm"><br>
+        contraseña 
+        <input type="password" class="item-formulario" id="contraseña"><br>
+        
+        
+         <input id="submit" type="submit" >
     </form>
+    
+   
 
 </body>
 </html>

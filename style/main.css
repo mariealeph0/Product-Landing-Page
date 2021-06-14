@@ -1,17 +1,92 @@
+body{
+    background-color: rgba(10, 7, 33, 0.987);
+    margin: 50px 50px 50px 50px;
+    color: white;
+    font-family: monospace;
+   
+}
 #nav-bar{
-    position: fixed;
+    background-color: yellow;
+    position: fixed;  
     font-size: 20px;
     font-family:Gloria Hallelujah;
-    top: 30px;
+    top: 40px;
+    right: 30px;
+    height: 50px;
+    width: 100%;
 }
 .nav-link{
-    margin-left: 40px;
+    margin-left: 80px;
+
 }
 h1{
     font-size: 100px;
+    font-family: Aclonica, sans-serif;
     text-align: center;
-    top: 40px;
+    margin-top: 150px;
+    padding-top:30px;
+    background-color: rgba(0, 0, 0, 0.912);
+  
+  
 }
 h2{
     font-family:Gloria Hallelujah;
+    padding-left: 30px;
+    text-align: left;
 }
+section{
+    top: 50px;
+    height: 400px; 
+    width: 100%; 
+    background-color: cadetblue;
+    float:right;  
+    border: 10px solid white; 
+    margin: 70px 30px 70px 30px;
+    font-size: 30px;
+    text-align:right;
+    padding-right: 25px;
+    
+}
+form{
+    height: 300px;
+    width: 50%;
+    background-color: rgba(191, 49, 167, 0.72); 
+    border: 10px solid white; 
+    margin: 30px 30px 30px 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;    
+    color: black;
+    float: left;
+    align:center;
+}
+h3{
+    font-family: Aclonica, sans-serif;
+}
+#img1{
+    width:516px;
+    height:315px;
+    margin: 40px 20px 30px 40px; 
+
+    
+}
+#img2{
+   
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    margin: 70px 30px 70px 70px; 
+     
+}
+
+.contenedorImg{
+    float: left;
+    
+
+}
+
+#video{
+    float: left;
+    margin: 40px 20px 30px 40px; 
+}
+
