@@ -57,8 +57,8 @@ form{
     text-align: center;
     padding: 20px;    
     color: black;
-    float: left;
-    align:center;
+    float: right;
+    text-align:center;
 }
 h3{
     font-family: Aclonica, sans-serif;
